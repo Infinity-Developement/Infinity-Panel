@@ -1,12 +1,12 @@
 {
-  "name": "airlink-panel",
+  "name": "Infinity-panel",
   "version": "1.0.0",
-  "description": "Airlink is a simple-to-use game server management panel",
+  "description": "Infinity is a simple-to-use game server management panel",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AirlinkLabs/panel"
+    "url": "https://github.com/Infinity-Developement/Infinity-Panel"
   },
-  "author": "AirlinkLabs",
+  "author": "InfinityLabs",
   "license": "MIT",
   "scripts": {
     "build-ts": "tsc",
