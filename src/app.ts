@@ -1,9 +1,9 @@
 /**
  * ╳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╳
- *      AirLink - Open Source Project by AirlinkLabs
- *      Repository: https://github.com/airlinklabs/airlink
+ *      Infinity - Open Source Project by InfinityLabs
+ *      Repository: https://github.com/Infinity-Developement/Infinity-Panel
  *
- *     © 2024 AirlinkLabs. Licensed under the MIT License
+ *     © 2024 InfinityLabs. Licensed under the MIT License
  * ╳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╳
  */
 
@@ -25,7 +25,7 @@ loadEnv();
 
 const app = express();
 const port = process.env.PORT || 3000;
-const name = process.env.NAME || 'AirLink';
+const name = process.env.NAME || 'Infinity';
 const airlinkVersion = config.meta.version;
 
 // Load websocket
@@ -91,7 +91,7 @@ app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
 
 // Load modules
 databaseLoader()
-  .then(() => loadModules(app, airlinkVersion))
+  .then(() => loadModules(app, infinityVersion))
   .then(() => {
     app.listen(port, () => {
       logger.info(`Server is running on http://localhost:${port}`);
