@@ -49,7 +49,7 @@ Infinity is a simple to use Game server management panel
 
 2. Start the application using pm2:
    ```bash
-   pm2 start dist/app.js --name "panel"
+   pm2 start dist/app.js --name "infinitypanel"
    ```
 
 3. Set up pm2 to auto-start on server reboot:
