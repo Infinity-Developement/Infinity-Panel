@@ -9,7 +9,7 @@ Airlink is a simple to use Game server management panel
 1. Clone the repository:
    ```bash
    cd /var/www/
-   git clone https://github.com/AirlinkLabs/panel.git
+   git clone https://github.com/Infinity-Developement/Infinity-Panel.git
    cd panel
    ```
 
