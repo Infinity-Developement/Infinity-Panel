@@ -15,8 +15,8 @@ Infinity is a simple to use Game server management panel
 
 2. Set 755 permissions on the panel directory:
    ```bash
-   sudo chown -R www-data:www-data /var/www/panel
-   sudo chmod -R 755 /var/www/panel
+   sudo chown -R www-data:www-data /var/www/Infinity-Panel
+   sudo chmod -R 755 /var/www/Infinity-Panel
    ```
 
 3. Install dependencies:
