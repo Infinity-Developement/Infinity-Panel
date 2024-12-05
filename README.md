@@ -2,7 +2,7 @@
 Infinity is a simple to use Game server management panel
 
 > [!CAUTION]
-> Infinity was in development for a while and was used by a few people, please wait an release version
+> Infinity is still in development for a, please wait an release version
 
 ## Installation
 
